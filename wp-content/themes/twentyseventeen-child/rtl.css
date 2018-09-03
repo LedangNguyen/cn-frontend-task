@@ -1,0 +1,46 @@
+/*
+Theme Name: Twenty Seventeen Child
+Template: twentyseventeen
+*/
+
+@media (min-width: 768px) {
+  body.postid-53.has-sidebar:not(.error404) #primary {
+    float: right;
+  }
+
+  body.postid-53.has-sidebar:not(.error404) #secondary {
+    float: left;
+  }
+
+  body.postid-53 .woocommerce-product-search input[type="search"] {
+    padding-right: .7em;
+    padding-left: 100px;
+  }
+
+  body.postid-53 .woocommerce-product-search input[type="submit"] {
+    right: auto;
+    left: .5em;
+  }
+
+  body.postid-53 .woocommerce-product-rating .star-rating {
+    display: inline-block;
+    float: none;
+  }
+
+  body.postid-53.woocommerce #content div.product div.thumbnails a {
+    display: inline-block;
+    float: none;
+    margin-right: 0;
+    margin-left: 3.8%;
+  }
+
+  body.postid-53 .widget .product_list_widget li a.remove {
+    float: left;
+    line-height: 14px;
+  }
+
+  /* Fix for brackets */
+  body.archive.term-clothing #content .product .woocommerce-LoopProduct-link h3::after {
+    content: '\200E';
+  }
+}
